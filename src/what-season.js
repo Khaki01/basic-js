@@ -1,7 +1,8 @@
 const CustomError = require("../extensions/custom-error");
 
-module.exports = function getSeason(date) {
+module.exports = function getSeason(/*date*/) {
   // remove line with error and write your code here
+  throw new CustomError('Not implemented');
   if(!date) return 'Unable to determine the time of year!';
   let year = date.getFullYear();
   let month = date.getMonth();
