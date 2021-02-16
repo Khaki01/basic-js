@@ -1,7 +1,7 @@
 const CustomError = require("../extensions/custom-error");
 
 const chainMaker = {
-
+  
   getLength() {
     return Math.floor((chainMaker.length()+2)/7);
     // remove line with error and write your code here
